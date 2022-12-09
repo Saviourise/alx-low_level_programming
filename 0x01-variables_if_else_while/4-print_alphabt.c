@@ -6,15 +6,15 @@
 
 int main(void)
 {
-char az = a;
-while (az <= z)
+char az = 'a';
+while (az <= 'z')
 {
-if (az != e && az != q)
+if (az != 'e' && az != 'q')
 {
 putchar(az);
 }
 az++;
 }
-putchar(n);
+putchar('\n');
 return (0);
 }
